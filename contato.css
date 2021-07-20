@@ -1,0 +1,105 @@
+html {
+	background: #545454;
+}
+
+body {
+	font-family: 'Montserrat', sans-serif;
+}
+
+header {
+	background: #000000;
+	padding: 30px 0;
+}
+
+.caixa {
+	position: relative;
+	width: 940px;
+	margin: 0 auto;
+}
+	
+	/*PRINCIPAL*/
+nav {
+	position: absolute;
+	top: 108px;
+	right: 0px;
+}
+
+nav li {
+	display: inline;
+	margin: 0 0 0 15px;
+}
+
+nav a {
+	text-transform: uppercase;
+	color: #F0E5E1;
+	font-size: 22px;
+	text-decoration: none;
+	transition: 1s all;
+}
+
+nav a:hover {
+	color: pink;
+	text-decoration: underline;
+}
+
+main {
+	background: #545454;
+	padding: 5%;
+	width: 940px;
+	margin: 0 auto;
+}
+
+	/*FORMULÁRIO*/
+form {
+	color: #F0E5E1; 
+	margin: 40px 0;  
+}
+
+form label, form legend {
+	display: block;
+	font-size: 20px;
+	margin: 0 0 10px;
+}
+
+.input-padrao{
+	display: block;
+	margin: 0 0 20px;
+	padding: 10px 25px;
+	width: 50%;
+}
+
+.checkbox {
+	margin: 20px 0;
+}
+
+.enviar {
+	width: 40%;
+	padding: 15px 0;
+	background: pink;
+	color: white;
+	font-weight: bold;
+	font-size: 18px;
+	border: none;
+	border-radius: 7px;
+	transition: 0.5s all;
+	cursor: pointer;
+
+}
+
+.enviar:hover {
+	background: deeppink;
+	transform: scale(1.2);
+}
+
+	/*RODAPÉ*/
+footer {
+	text-align: center;
+	background: url("tela.png");
+	padding: 40px 0;
+}
+
+.copyright {
+	color: #FFFFFF;
+	font-size: 13px;
+	margin: 20px 0 0;
+}
